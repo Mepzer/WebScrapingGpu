@@ -19,9 +19,3 @@ source ./venv/bin/activate
 
 pip3 install -r ./requirements.txt
 ```
-
-*Run*
-
-````shell
-python naive_projects/cep_query/main.py
-````
