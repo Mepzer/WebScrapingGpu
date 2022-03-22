@@ -3,7 +3,9 @@ import requests
 import pywhatkit as pw
 
 # - Coletando dados
-URL = "https://www.kabum.com.br/produto/181088/processador-amd-ryzen-5-5600g-3-9ghz-4-4ghz-max-turbo-am4-video-integrado-6-nucleos-100-100000252box"
+BASE_URL = "https://www.kabum.com.br"
+ENDPOINT = "/produto/181088"
+URL = BASE_URL + ENDPOINT
 
 headers = {
     'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39"
